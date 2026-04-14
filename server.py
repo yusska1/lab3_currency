@@ -29,9 +29,9 @@ def init_db():
     # создаём таблицу...
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS rates (
-        date TEXT,        # дата
-        currency TEXT,    # валюта (USD, EUR)
-        rate REAL         # курс
+        date TEXT,        
+        currency TEXT,   
+        rate REAL         
     )
     """)
 
