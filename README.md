@@ -29,12 +29,7 @@ Czech National Bank (ČNB)
 https://www.cnb.cz
 
 
-# Технологии
-- Python
-- Flask
-- SQLite
-- Requests
-- Schedule
+
 
 # Запустить сервер
 python server.py
